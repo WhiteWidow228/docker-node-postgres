@@ -17,6 +17,12 @@ app.get("/", (req, res) => {
     res.send("Backend works!");
 });
 
+app.get("/health", (req, res) => {
+    res.json({
+        status: "ok",
+        uptime: process.uptime()
+    });
+});
 
 app.get("/users", async (req, res) => {
     try {

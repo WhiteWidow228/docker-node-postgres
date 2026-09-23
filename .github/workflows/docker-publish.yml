@@ -35,4 +35,4 @@ jobs:
           context: ./backend
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/docker-node-postgres:latest
+            ghcr.io/whitewidow228/docker-node-postgres:latest

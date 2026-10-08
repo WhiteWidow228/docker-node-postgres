@@ -1,1 +1,15 @@
 .env
+.env.*
+!.env.example
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+node_modules/
+
+# Database backups
+backup.sql
+
+# Database backups
+backup.sql
